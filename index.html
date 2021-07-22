@@ -9,20 +9,31 @@
 </head>
 
 <body onload="initGame()">
-    <br>
-    <h1></h1>
-    <br>
-    <span class="levels">
-        <button onclick="selectedLevel(4,2)">Easy</button>
-        <button onclick="selectedLevel(8,12)">Medium</button>
-        <button onclick="selectedLevel(12,30)">Are You a Pro ?!</button>
-    </span>
-    <br>
-    <button class="reset" onclick="initGame()">🙂</button>
-    <!-- <button class="test" onclick="initGame()"></button> -->
-    <table border="1" cellpadding='10'>
-        <tbody class="board"></tbody>
-    </table>
+    <h2 class="logo"><h2>
+            <div class="backgroundDeck">
+                <h1></h1>
+                <span class="levels">
+                    <button onclick="selectedLevel(4,2) & logo(1)">Easy</button>
+                    <button onclick="selectedLevel(8,12) & logo(2)">Medium</button>
+                    <button onclick="selectedLevel(12,30) & logo(3)">Are You a Pro ?!</button>
+                </span>
+                <br>
+                <button class="livesbtn"></button>
+                <button class="resetbtn" onclick="initGame()">🙂</button>
+                <button class="minesbtn"></button>
+                <br>
+                <button class="timer">00.000</button>
+            </div>
+            <table border="1" cellpadding='10'>
+                <tbody class="board"></tbody>
+            </table>
+            <br>
+            <div class="backgroundScore">
+                <p>Best Scores:</p>
+                <span class="easy">Easy -</span> <br>
+                <span class="medium">Medium -</span> <br>
+                <span class="pro">Pro -</span>
+            </div>
 </body>
 
 <script src="js/utils.js"></script>

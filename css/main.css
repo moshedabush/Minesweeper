@@ -1,9 +1,10 @@
 body{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url("https://images3.alphacoders.com/178/178429.jpg");
     background-color: #cccccc;
+    height: auto;
+    margin: auto;
+    font-size: 70%;
        
 }
 .levels{
@@ -14,7 +15,7 @@ body{
 }
 .levels button{
     color: rgb(124, 124, 240);
-    background-color: rgb(226, 215, 215);
+    background-color: rgb(226, 215, 225);
     margin:1px
 }
 .board td{
@@ -34,24 +35,46 @@ table{
     background-color:rgb(184, 182, 182) ;
     opacity: 0.9;
 }
-.gameOver{
+.mine{
     background-color: red;
 }
-.reset{
+.resetbtn{
     background-color: rgb(226, 215, 215);
-    width: 50px;
-    height: 50px;
-    margin:10px;
-    font-size : 33px;
+    width: 25%;
+    height: 500%;
+    margin-top: 4px;
+    font-size : 150%;
     padding: auto;
 }
-/* .test{ */
-/* image-orientation: url("https://i.pinimg.com/originals/62/eb/fa/62ebfa7a8501e2c48a62f95baa6dc5f9.gif"); */
-/* left: 30px; */
-/* display: block; */
-/* display: block; 
-width: 50px;
-height: 50px;
-background: url("../img/Smile.gif") ;
-
-} */
+.minesbtn{
+    background-color: rgb(226, 215, 215);
+    color: red;
+    font-size: 100%;
+    opacity: 0.8;
+    margin-left: 1px;
+}
+.livesbtn{
+    background-color: rgb(226, 215, 215);
+    color:rgb(124, 124, 240);
+    font-size: 100%;
+    opacity: 0.85;
+}
+.backgroundDeck{
+    background: rgba(175, 175, 245, .4);  
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+    border-radius: 25px;
+}
+.backgroundScore{
+    background: rgba(175, 175, 245, .4); 
+    margin: auto;
+    border-radius: 25px;
+    width: 15%;
+    text-align: center;
+}
+.timer{
+    background-color: rgb(226, 215, 225);
+    opacity: 0.8;
+    margin-bottom: 0.8px;
+}
