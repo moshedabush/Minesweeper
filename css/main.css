@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images3.alphacoders.com/178/178429.jpg");
+    background-color: #cccccc;
+       
+}
+.levels{
+    text-align: center;
+    padding: auto;
+    opacity: 0.95;
+    
+}
+.levels button{
+    color: rgb(124, 124, 240);
+    background-color: rgb(226, 215, 215);
+    margin:1px
+}
+.board td{
+    width: 27px;
+    height: 27px;
+    transition: 0.1s;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell{
+    background-color: rgb(164, 164, 245);
+    opacity: 0.8;
+}
+.selected{
+    background-color:rgb(184, 182, 182) ;
+    opacity: 0.9;
+}
+.gameOver{
+    background-color: red;
+}
+.reset{
+    background-color: rgb(226, 215, 215);
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    font-size : 33px;
+    padding: auto;
+}
+/* .test{ */
+/* image-orientation: url("https://i.pinimg.com/originals/62/eb/fa/62ebfa7a8501e2c48a62f95baa6dc5f9.gif"); */
+/* left: 30px; */
+/* display: block; */
+/* display: block; 
+width: 50px;
+height: 50px;
+background: url("../img/Smile.gif") ;
+
+} */
