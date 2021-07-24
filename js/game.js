@@ -33,13 +33,13 @@ function initGame() {
 
 function cellClicked(elCell, i, j) {
     if (!gGame.isOn) return;
+    var cell = gBoard[i][j];
+    if (cell.isShown || cell.isMarked) return;
     if (gFirstClick) {
         createMines(i, j);
         timer();
         gFirstClick = false;
     }
-    var cell = gBoard[i][j];
-    if (cell.isShown || cell.isMarked) return;
     elCell.classList.add('selected');
     if (cell.isMine) {
         renderCell(i, j, MINE);
